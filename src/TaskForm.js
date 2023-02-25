@@ -72,7 +72,6 @@ const TaskForm = ({ kisiler, submitFn }) => {
     });
   }
 
-
   // diğer form alanları değiştikçe çalışan ve yeni değeri state'e ekleyen fonksiyon
   function handleOthersChange(e) {
     const { name, value } = e.target;
